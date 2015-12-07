@@ -18,6 +18,9 @@ with BIND (DNS server).
 Protocol
 ========
 
+When a device wants to receive an IP address, it has to make a request. The process to do that is called DORA. DORA stands for Discover, Offer, Request, Acknowledge. The client sends a Discover message to the DHCP server, the DHCP server answers with an Offer message, after that the client sends a Request message to the DHCP server who answers with an Acknowledge message. 
+
+
 dhcp helper
 ===========
 DHCP helpers are sometimes referred to as DHCP relayers. The basic idea is that
